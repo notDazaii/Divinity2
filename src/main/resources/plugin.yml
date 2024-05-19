@@ -1,0 +1,8 @@
+name: Divinity
+version: '${project.version}'
+main: plugin.divinity2.Divinity
+api-version: '1.20'
+commands:
+  offer:
+    description: Fai un'offerta a una divinità
+    usage: /offer <nomeDivinita> <oggetto>
